@@ -18,18 +18,6 @@ import Products from "./newProducts";
 import HomeCalc from "./homeCalc";
 import Footprint from "./FinalOutput";
 
-function Copyright() {
-    return (
-        <Typography variant="body2" color="textSecondary" align="center">
-            {'Copyright © '}
-            <Link color="inherit" href="https://material-ui.com/">
-                Your Website
-            </Link>{' '}
-            {new Date().getFullYear()}
-            {'.'}
-        </Typography>
-    );
-}
 
 const useStyles = makeStyles((theme) => ({
     appBar: {
@@ -150,7 +138,7 @@ export default function Checkout() {
                         )}
                     </React.Fragment>
                 </Paper>
-                {/*<Copyright />*/}
+
             </main>
         </React.Fragment>
     );
